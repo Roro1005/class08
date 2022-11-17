@@ -20,5 +20,8 @@ public class MoveCube : MonoBehaviour
         Vector3 currentPosition = transform.position;
         currentPosition += move;
         transform.position = currentPosition;
+
+
+        Quaternion ratation=Quaternion.AngleAxis(90f,new Vector3(0f,1f,0f));
     }
 }
