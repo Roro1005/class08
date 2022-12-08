@@ -21,9 +21,10 @@ public class GuiSanplu : MonoBehaviour
         {
             ButtonCount++;
             Text.text = ButtonCount + "‰ñ‰Ÿ‚³‚ê‚Ü‚µ‚½";
+            
 
             Color c = Image.color;
-            c.a = 1;
+            c.a= 1;
             Image.color = c;
         });
         
